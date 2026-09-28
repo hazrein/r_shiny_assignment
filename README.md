@@ -1,11 +1,12 @@
 # R Shiny Assignment
 
 This project is an R Shiny application developed to reproduce the claims development calculations provided in the assignment Excel file.
-The application allows users to modify the claims paid inputs and tail factor. The cumulative paid claims table and graph will automatically update based on the selected inputs.
+The application allows users to either manually enter claims paid data or upload a CSV/Excel file containing incremental claims data. Users can also adjust the tail factor. The cumulative paid claims table and graph will automatically update based on the selected inputs.
 
 ## Features
 
-- Interactive claims paid inputs
+- Manual input of incremental claims data
+- Upload of incremental claims data in CSV or Excel format
 - Automatic calculation of cumulative paid claims
 - Development factor calculations
 - Tail factor adjustment
@@ -16,6 +17,7 @@ The application allows users to modify the claims paid inputs and tail factor. T
 
 - R
 - Shiny
+- readxl
 - Git and GitHub
 - Posit Connect Cloud
 
